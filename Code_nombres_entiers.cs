@@ -1,5 +1,5 @@
-int x = 2 147 483 647;
-long y = 9 223 372 036 854 775 808;
-short z = 32 768;
+int x = int.MaxValue;
+long y = long.MaxValue;
+short z = shrt.MaxValue;
 
-ulong Addition = x+y+z;
+ulong Addition = (ulong) x + (ulong) y + (ulong) z;
